@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Custom layout used for the Android Notification Window, to request the User's permission to show UX Activity
+on the screen running on Standard Android platforms.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160sp"
+    android:background="?background"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.UxResources">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_offline"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        style="@style/ArcTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/notification_message"
+        android:textAllCaps="false" />
+</LinearLayout>

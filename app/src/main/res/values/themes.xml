@@ -1,0 +1,72 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.UxResources" parent="Theme.MaterialComponents.Light">
+        <item name="background">@color/background</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ingenico_teal_500</item>
+        <item name="colorPrimaryVariant">@color/ingenico_teal_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ingenico_pink_400</item>
+        <item name="colorSecondaryVariant">@color/ingenico_pink_600</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background -->
+        <!-- <item name="android:colorBackground">#121212</item> -->
+        <item name="colorOnBackground">@color/white</item>
+        <!-- Error -->
+        <item name="colorError">#B00020</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!--Buttons-->
+        <item name="buttonYes">@color/ingenico_btn_yes_color</item>
+        <item name="buttonNo">@color/ingenico_btn_no_color</item>
+        <item name="buttonCancel">@color/ingenico_btn_cancel_color</item>
+        <item name="buttonGeneric">@color/ingenico_teal_500</item>
+        <item name="titleConfirm">@color/ingenico_confirm_color</item>
+        <item name="titleInput">@color/ingenico_title_color</item>
+        <item name="backgroundWidget">@color/ingenico_background_widget</item>
+        <item name="borderWidget">@color/ingenico_border_widget</item>
+
+        <!-- Status bar color. -->
+        <!--  <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Disable system blank window.
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item> -->
+    </style>
+    <style name="Theme.UxResourcesAccessibility" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="background">@color/white</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background -->
+        <!-- <item name="android:colorBackground">#121212</item> -->
+        <item name="colorOnBackground">@color/black</item>
+        <!-- Error -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">@color/black</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+        <!--Buttons-->
+        <item name="buttonYes">@color/black</item>
+        <item name="buttonNo">@color/black</item>
+        <item name="buttonCancel">@color/black</item>
+        <item name="buttonGeneric">@color/black</item>
+        <item name="titleConfirm">@color/black</item>
+        <item name="titleInput">@color/black</item>
+        <item name="backgroundWidget">@color/black</item>
+        <item name="borderWidget">@color/black</item>
+        <!-- Status bar color. -->
+        <!--  <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Disable system blank window.
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item> -->
+    </style>
+</resources>

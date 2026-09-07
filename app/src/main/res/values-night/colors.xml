@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#393939</color>
+    <color name="disabled_widget">#989898</color>
+    <color name="ingenico_teal_050">#e1f6fb</color>
+    <color name="ingenico_teal_100">#b5e8f4</color>
+    <color name="ingenico_teal_200">#88daec</color>
+    <color name="ingenico_teal_300">#5ecbe2</color>
+    <color name="ingenico_teal_400">#48c0da</color>
+    <color name="ingenico_teal_500">#41b5d2</color>
+    <color name="ingenico_teal_600">#3ca5bf</color>
+    <color name="ingenico_teal_700">#3591a5</color>
+    <color name="ingenico_teal_800">#2f7d8c</color>
+    <color name="ingenico_teal_900">#255a61</color>
+
+    <color name="ingenico_orange_050">#f6ebea</color>
+    <color name="ingenico_orange_100">#f6cfc5</color>
+    <color name="ingenico_orange_200">#f1b1a1</color>
+    <color name="ingenico_orange_300">#ed947d</color>
+    <color name="ingenico_orange_400">#ec7e62</color>
+    <color name="ingenico_orange_500">#eb6a4a</color>
+    <color name="ingenico_orange_600">#e06546</color>
+    <color name="ingenico_orange_700">#d25e41</color>
+    <color name="ingenico_orange_800">#c3583e</color>
+    <color name="ingenico_orange_900">#a64f38</color>
+
+    <color name="ingenico_green_050">#e2f7ef</color>
+    <color name="ingenico_green_100">#b8ebd8</color>
+    <color name="ingenico_green_200">#86dec0</color>
+    <color name="ingenico_green_300">#41d2a7</color>
+    <color name="ingenico_green_400">#00c793</color>
+    <color name="ingenico_green_500">#00bc80</color>
+    <color name="ingenico_green_600">#00ad74</color>
+    <color name="ingenico_green_700">#009a65</color>
+    <color name="ingenico_green_800">#008858</color>
+    <color name="ingenico_green_900">#006840</color>
+
+    <color name="ingenico_pink_050">#f7e4ee</color>
+    <color name="ingenico_pink_100">#edbcd7</color>
+    <color name="ingenico_pink_200">#e492bc</color>
+    <color name="ingenico_pink_300">#dc68a1</color>
+    <color name="ingenico_pink_400">#d74b8c</color>
+    <color name="ingenico_pink_500">#d43178</color>
+    <color name="ingenico_pink_600">#c32f73</color>
+    <color name="ingenico_pink_700">#ad2d6b</color>
+    <color name="ingenico_pink_800">#972a64</color>
+    <color name="ingenico_pink_900">#722356</color>
+
+    <color name="ingenico_btn_yes_color">#3fbd7d</color>
+    <color name="ingenico_btn_yes_color_pressed">#0f8d4d</color>
+    <color name="ingenico_btn_no_color">#eec747</color>
+    <color name="ingenico_btn_no_color_pressed">#ae9717</color>
+    <color name="ingenico_btn_cancel_color">#f67272</color>
+    <color name="ingenico_btn_cancel_color_pressed">#c65252</color>
+    <color name="ingenico_confirm_color">#3e4446</color>
+    <color name="ingenico_title_color">#ffffff</color>
+    <color name="ingenico_background_widget">#575757</color>
+    <color name="ingenico_border_widget">#787878</color>
+    <!--  https://material.io/design/color/the-color-system.html#tools-for-picking-colors  -->
+    <!--  https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=41B4D2  -->
+</resources>

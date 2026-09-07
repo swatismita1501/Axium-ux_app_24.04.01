@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale">es-MX</string> <!-- Must present in each string.xml -->
+    <string name="notification_message">Haga clic para abrir UX.</string>
+
+    <!-- Non entry prompts -->
+    <string name="aborted">Abortado</string>
+    <string name="accept">Aceptar</string>
+    <string name="accept_changes_enter_or_cancel">¿Aceptar cambios?\nENTER o CANCEL</string>
+    <string name="accessibility_form_cancel">Cancelar</string>
+    <string name="accessibility_form_clear">Clara</string>
+    <string name="accessibility_pin_cancel">Cancelar</string>
+    <string name="accessibility_pin_clear">Clara</string>
+    <string name="accessibility_pin_digit">Dígit</string>
+    <string name="accessibility_pin_enter">Entrar</string>
+    <string name="amount_cashback_total_amount_ok" formatted="false">&lt;?ivARC_AMOUNT?&gt; + &lt;?ivARC_CASHBACK?&gt; = &lt;?ivARC_TOTAL?&gt;\n¿Monto Correcto?</string>
+    <string name="amount_must_be_less_than_amount" formatted="false">Cantidad debe ser menor que &lt;?ivARC_AMOUNT?&gt;</string>
+    <string name="amount_ok">¿Cantidad correcta?</string>
+    <string name="amount_ok_total" formatted="false">¿Cantidad correcta? &lt;?ivARC_TOTAL?&gt;</string>
+    <string name="application_blocked">Aplicación ha sido bloqueada</string>
+    <string name="application_not_supported">Aplicación no soportada</string>
+    <string name="application_not_supported_please_reselect">Aplicación no soportada\nPor favor, Vuelva a Seleccionar</string>
+    <string name="approved">Aprobado</string>
+    <string name="authentication_failed">Fallo durante autenticación</string>
+    <string name="authorization_confirmation_failed">Autorización de confirmación fracasado</string>
+    <string name="authorization_response_timeout">Autorización de tiempo de respuesta</string>
+    <string name="authorization_send_failed">Autorización de enviar error</string>
+    <string name="authorizing_please_wait">Autorizando… Espere por favor</string>
+    <string name="authorizing_please_wait_do_not_remove_card">Autorizando\nEspere por favor\nNo retire la tarjeta</string>
+    <string name="benefits_restored">BENEFICIOS RESTAURADOS</string>
+    <string name="bt_pairing_canceled">BT sincronización cancelado</string>
+    <string name="bt_pairing_failed">BT Sincronización fallido</string>
+    <string name="bt_pairing_mode">¿BT Modo Sincronización?</string>
+    <string name="bt_pairing_required">Sincronización BT Necesario</string>
+    <string name="bt_pairing_succeeded">BT sincronización éxito</string>
+    <string name="bt_pin_type">Ingrese el PIN BT</string>
+    <string name="canceled_by_customer">Cancelado por el cliente</string>
+    <string name="cannot_process_transaction_too_many_taps">Transacción no procesada excedió intentos permitidos</string>
+    <string name="card">Tarjeta</string>
+    <string name="card_accepted">Tarjeta aceptada</string>
+    <string name="card_blocked">Tarjeta incorrecto</string>
+    <string name="card_blocked_remove_card">Tarjeta bloqueada\nRetire la tarjeta</string>
+    <string name="card_data_invalid">Tarjeta incorrecto</string>
+    <string name="card_error_return_to_clinic">Error en la tarjeta\nRegresar a la clínica</string>
+    <string name="card_not_accepted">Tarjeta no aceptada</string>
+    <string name="card_not_read_please_ask_for_assistance">Tarjeta no legible pida ayuda</string>
+    <string name="card_not_supported">Tarjeta no respaldada</string>
+    <string name="card_problem">Problema en la tarjeta</string>
+    <string name="card_problem_remove_card">Problema en la tarjeta\nRetire la tarjeta</string>
+    <string name="card_problem_see_journal_message">Problema en la tarjeta\nVea mensajes del journal</string>
+    <string name="card_problem_transaction_canceled">Problema en la tarjeta\Transacción cancelada</string>
+    <string name="card_read_canceled">Lectura de tarjeta cancelada</string>
+    <string name="card_read_error">Error de lectura de tarjeta</string>
+    <string name="card_read_error_please_try_again">Error lectura de tarjeta\nRe-intentar por favor</string>
+    <string name="card_read_error_try_again">Error de lectura de tarjeta. Intente de nuevo.</string>
+    <string name="card_removed">Tarjeta removida</string>
+    <string name="card_removed_transaction_canceled">Tarjeta removida\Transacción cancelada</string>
+    <string name="cash_back">Retiro efectivo</string>
+    <string name="cashback">¿Extraer dinero?</string>
+    <string name="cashback_correct_cashback">¿Cantidad correcta? &lt;?ivARC_CASHBACK?&gt;</string>
+    <string name="cashback_limit_is_cb_max_text">Límite de cashback es &lt;?ivARC_CB_MAX_TEXT?&gt;</string>
+    <string name="config_eft_levels">Configure nivel de EFT</string>
+    <string name="config_host_port">Configuración del puerto del servidor</string>
+    <string name="config_test_debug">Configuración Prueba/Testeo</string>
+    <string name="confirm">Confirmar</string>
+    <string name="confirm_application">Confirme apl: &lt;?ivEMVAPPNAME?&gt;</string>
+    <string name="confirmed_thank_you">Confirmado. Gracias</string>
+    <string name="could_not_initiate_bt_pairing">No se pudo iniciar la sincronización BT</string>
+    <string name="cpem_test_card_read">Lectura de tarjeta de prueba CPEM</string>
+    <string name="credit">Crédito</string>
+    <string name="debit">Débito</string>
+    <string name="debit_is_available_proceed_with_debit">Débito está disponible. ¿Continuar con débito?</string>
+    <string name="debit_is_available_would_you_like_to_proceed_with_debit">Débito está disponible. ¿Usted desea continuar con débito?</string>
+    <string name="decline">Denegar</string>
+    <string name="declined">Declinada</string>
+    <string name="device_name">Nombre del dispositivo\n</string>
+    <string name="do_not_remove_card">No retire la tarjeta</string>
+    <string name="dxbase_ethernet_settings_succeeded">La configuración ethernet de la base DX8000 fue exitosa</string>
+    <string name="dxbase_ethernet_settings_failed">La configuración ethernet de la base DX8000 falló al aplicarse</string>
+    <string name="ebt_cash">Efectivo EBT</string>
+    <string name="ebt_foodstamps">Estampillas EBT</string>
+    <string name="emv">EMV</string>
+    <string name="emvappname_please_wait">&lt;?ivEMVAPPNAME?&gt;\nFavor de esperar…</string>
+    <string name="encrypting_please_wait">Codificando… favor de esperar…</string>
+    <string name="english_125">Spanish 125</string>
+    <string name="enter_card">Entrar tarjeta</string>
+    <string name="enter_card_details">Ingrese los detalles de la tarjeta</string>
+    <string name="entry_timeout_transaction_canceled">Tiempo consumido\nTransacción cancelada</string>
+    <string name="exit">Salir</string>
+    <string name="expired_card_please_use_another">Tarjeta expirada. Favor de usar otra.</string>
+    <string name="fallback_please_remove_card">Fallback. Por favor, retire la tarjeta de forma rápida</string>
+    <string name="if_this_is_a_check_card_select_yes">Si esta es una tarjeta bancaria o de cheques, seleccione Sí.</string>
+    <string name="if_this_is_atm_debit_card_select_yes">Si esta es una tarjeta de Débito, seleccione Sí.</string>
+    <string name="incorrect_password">Clave incorrecta</string>
+    <string name="incorrect_pin">PIN incorrecto</string>
+    <string name="index_key_is_missing">Clave de índice que falta</string>
+    <string name="input_accepted">Entrada aceptada</string>
+    <string name="input_canceled">Entrada cancelada</string>
+    <string name="insert">Inserte</string>
+    <string name="insert_card_in_chip_reader">Insertar tarjeta en lector de chips</string>
+    <string name="insert_card_swipe_or_select_a_language">Inserte/Deslice su trajeta\n o seleccione idioma</string>
+    <string name="insert_swipe_or_tap_card">Inserte, deslice, o pase</string>
+    <string name="invalid_account_number">Número de cuenta no válido</string>
+    <string name="invalid_amount_cashback">Cantidad no permitida: &lt;?ivARC_CASHBACK?&gt;</string>
+    <string name="invalid_bt_mac">Inválido MAC BT</string>
+    <string name="invalid_bt_mac_pin">Inválido MAC/PIN BT</string>
+    <string name="invalid_card_for_payment_type">Tarjeta no permitida para este tipo de pago</string>
+    <string name="invalid_card_type_ask_for_assistance">Tipo de tarjeta inválida \nPida ayuda por favor</string>
+    <string name="invalid_damaged_card">Tarjeta no válida/dañada</string>
+    <string name="invalid_date">Fecha No Permitida</string>
+    <string name="invalid_no_bt_pin">Inválido/No PIN BT</string>
+    <string name="invalid_payment_type">Tipo de pago no permitido</string>
+    <string name="invalid_pin_please_reenter">PIN incorrecto. Marque de nuevo</string>
+    <string name="is_this_amount_ok_total">¿Importe OK? &lt;?ivARC_TOTAL?&gt;</string>
+    <string name="just_received_an_unknown_message">Mensaje desconocido fue recibido</string>
+    <string name="loading">Loading…</string>
+    <string name="manufacture_device_id">Manufactura / Dispositivo</string>
+    <string name="more">- Mas -</string>
+    <string name="name_bluetoothdevice_pin_bluetoothpin">No soportado por ARC</string>
+    <string name="next">Contiguo</string>
+    <string name="no_amount_entered_transaction_canceled">Valor nulo\n Transacción cancelada</string>
+    <string name="not_a_sale_cashback_canceled">No es una venta. Cashback cancelado.</string>
+    <string name="not_accepted">No aceptada</string>
+    <string name="not_approved_application_expired">No aprobado\nAplicación vencida</string>
+    <string name="number_to_match">Número para coincidir\n</string>
+    <string name="or">o</string>
+    <string name="pair_to_replace_unpair_to_remove">EMPAREJAR para reemplazar\nDESPARAR para eliminar</string>
+    <string name="paypal">PayPal</string>
+    <string name="pin_must_be_4_to_12_digits">PIN debe ser 4 a 12 dígitos</string>
+    <string name="pin_ok">PIN OK</string>
+    <string name="pin_try_limit_exceeded">Número de intentos superado</string>
+    <string name="please_ask_for_assistance">Por favor pida ayuda</string>
+    <string name="please_confirm">Por favor confirme</string>
+    <string name="please_hand_card_to_cashier">Por favor pase tarjeta al cajero(a)</string>
+    <string name="please_insert_your_smart_card_or_select_a_language">POR FAVOR INSERTE SU TARJETA, O SELECCIONE IDIOMA</string>
+    <string name="please_present_one_card_only">Por favor presentar una tarjeta solo</string>
+    <string name="please_re_select">Por favor, Vuelva a Seleccionar</string>
+    <string name="please_retap_card">Favor Pase Tarjeta</string>
+    <string name="please_remove_card">Remover tarjeta por favor</string>
+    <string name="please_scan_barcode">Por favor escanea el código de barras</string>
+    <string name="please_select_benefit_type">Por favor seleccione tipo de beneficio</string>
+    <string name="please_select_language">Por favor seleccione idioma</string>
+    <string name="please_select_payment_type">Seleccione tipo de pago</string>
+    <string name="please_select_shopping_payment_type">Por favor seleccione tipo de pago</string>
+    <string name="please_show_card_to_cashier">Por favor muestre su tarjeta al cajero(a)</string>
+    <string name="please_sign_above_for_signature_verification">Por favor firme arriba para verificar su firma.</string>
+    <string name="please_sign_and_press_ok">Por favor firme y presione OK</string>
+    <string name="please_sign_for_signature_registration">Por favor firme para registrar su firma.</string>
+    <string name="please_slide_card">Por favor deslice su tarjeta</string>
+    <string name="please_slide_card_or_choose_paypal">Por favor deslice su tarjeta o elija PayPal</string>
+    <string name="please_slide_card_or_tap">Por favor deslice o toque su tarjeta</string>
+    <string name="please_slide_card_tap_or_choose_paypal">Por favor deslice o toque su tarjeta o elija PayPal</string>
+    <string name="please_swipe_or_insert_card">Favor deslice o inserte tarjeta</string>
+    <string name="please_tap_the_device_or_press_enter">Toque\nel dispositivo\no presione Entrar</string>
+    <string name="please_wait">Favor de esperar…</string>
+    <string name="please_wait_do_not_remove_card">Espere por favor… No retire la tarjeta</string>
+    <string name="please_wait_for_cashier">Por favor espere por el cajero(a)</string>
+    <string name="please_wait_for_the_cashier">Por favor espere por el cajero(a)</string>
+    <string name="please_wait_for_dxbase_ethernet_settings_applied">Por favor espere mientras se aplica la configuración ethernet de la base DX8000</string>
+    <string name="previous">Anterior</string>
+    <string name="processing_please_wait">Procesando… Favor esperar</string>
+    <string name="purchase">Compra</string>
+    <string name="rebooting">Reiniciando</string>
+    <string name="rebooting_for_ios_mode">Reinicio en modo iOS…</string>
+    <string name="refund">Reembolso</string>
+    <string name="register_terminal">Registrar &lt;?ivTERMINAL?&gt;</string>
+    <string name="remove_card">Retire la tarjeta</string>
+    <string name="remove_card_quickly">Retire la tarjeta rápidamente</string>
+    <string name="restore_failed">ERROR AL RESTAURAR</string>
+    <string name="return_ok_total">¿Confirma devolución? &lt;?ivARC_TOTAL?&gt;</string>
+    <string name="scan_bt_pairing_code">Escanear BT código de sincronización</string>
+    <string name="security_code_too_small">Código de seguridad demasiado pequeño</string>
+    <string name="see_phone_for_instruction">Siga instrucciones\nen su teléfono</string>
+    <string name="select_account">Seleccione cuenta</string>
+    <string name="select_application">Seleccionar aplicación</string>
+    <string name="select_cashback_amount">Select Cashback Amount</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="signature_accepted">Firma aceptada</string>
+    <string name="signature_accepted_thank_you">Firma aceptada. Gracias</string>
+    <string name="signature_canceled">Firma cancelada</string>
+    <string name="signature_timeout">Tiempo de Firma Agotado</string>
+    <string name="store_charge">Cargo de la Tienda</string>
+    <string name="swipe">Deslice</string>
+    <string name="system_error">Error del sistema</string>
+    <string name="system_error_remove_card">Error de sistema\nRetire la tarjeta</string>
+    <string name="system_parameters">Parametros del sistema</string>
+    <string name="tap">Pase</string>
+    <string name="tap_failed_insert_or_swipe_card">Tarjeta de contacto falló, inserte o deslice la tarjeta</string>
+    <string name="terms_accepted">Condiciones aceptadas</string>
+    <string name="terms_declined">Condiciones negadas</string>
+    <string name="thank_you_for_your_loyalty">Gracias por su lealtad</string>
+    <string name="this_lane_closed">Este carril cerrado</string>
+    <string name="too_many_pin_entry_errors">Demasiados errores de entrada de PIN</string>
+    <string name="transaction_accepted">Transacción aceptada</string>
+    <string name="transaction_canceled">Transacción cancelada</string>
+    <string name="transaction_changed_to">Transacción\nmodificada\na</string>
+    <string name="transaction_complete">Transacción completo</string>
+    <string name="transaction_not_permitted">Transacción no permitida</string>
+    <string name="transaction_not_started">Transacción no\niniciada</string>
+    <string name="transaction_prep_send_failed">Fallo en el envío de la transacción</string>
+    <string name="unable_to_authorize">Incapaz de autorizar</string>
+    <string name="unable_to_process_transaction">No se puede procesar transacción</string>
+    <string name="update_successful">Actualización exitosa</string>
+    <string name="updating_card">Actualizando tarjeta</string>
+    <string name="voice_authorization_required">Requiere autorización de voz</string>
+    <string name="void_">Cancelación</string>
+    <string name="void_ok_total">¿Confirma anulación? &lt;?ivARC_TOTAL?&gt;</string>
+    <string name="void_return_ok_total">¿Confirma anulación de devolución? &lt;?ivARC_TOTAL?&gt;</string>
+    <string name="welcome">¡Bienvenidas!</string>
+    <string name="wic_please_wait_do_not_remove_card">WIC - &lt;?ivWICSTATE?&gt;\nPor favor… No retire la tarjeta</string>
+    <string name="wic_problem_see_journal_message">Problema de WIC\nVea mensajes del journal</string>
+    <string name="wic_update_canceled">WIC actualizar cancelado</string>
+    <string name="wic_no_current_WIC">No actual WIC</string>
+    <string name="would_you_like_to_try_your_check_card">Desearía tratar con su tarjeta bancaria?</string>
+    <string name="unknown_prompt">Mensaje desconocido</string>
+
+    <!--Cless ressources-->
+    <string name="cless_application_blocked">Aplicación ha sido bloqueada</string>
+    <string name="cless_application_not_supported">Aplicación no soportada</string>
+    <string name="cless_approved">Aprobado</string>
+    <string name="cless_authorization_response_timeout">Autorización de tiempo de respuesta</string>
+    <string name="cless_card_blocked">Tarjeta incorrecto</string>
+    <string name="cless_card_collision">Por favor presentar una tarjeta solo</string>
+    <string name="cless_card_limit">Limite excedido en transacción de tarjeta sin contacto</string>
+    <string name="cless_card_not_supported">Tarjeta no respaldada</string>
+    <string name="cless_card_read_error">Error de lectura de tarjeta</string>
+    <string name="cless_declined">Declinada</string>
+    <string name="cless_good_read">Tarjeta aceptada</string>
+    <string name="cless_no_amount">Valor nulo \n Transacción cancelada</string>
+    <string name="cless_transaction_canceled">Transacción cancelada</string>
+    <string name="use_contact_interface">Insertar tarjeta en el lector de tarjeta</string>
+    <string name="cless_card_reader_timeout">Error de tiempo de espera en el lector de tarjeta</string>
+
+    <!-- Button prompts -->
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_checking">Chequing</string>
+    <string name="btn_clear">Limpiar</string>
+    <string name="btn_no">No</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_savings">Ahorros</string>
+    <string name="btn_yes">Sí</string>
+    <string name="btn_text1">&lt;?ivBUTTONTEXT1?&gt;</string>
+    <string name="btn_text2">&lt;?ivBUTTONTEXT2?&gt;</string>
+    <string name="btn_text3">&lt;?ivBUTTONTEXT3?&gt;</string>
+    <string name="btn_text4">&lt;?ivBUTTONTEXT4?&gt;</string>
+    <string name="btn_text5">&lt;?ivBUTTONTEXT5?&gt;</string>
+    <string name="btn_text6">&lt;?ivBUTTONTEXT6?&gt;</string>
+    <string name="btn_text7">&lt;?ivBUTTONTEXT7?&gt;</string>
+    <string name="btn_text8">&lt;?ivBUTTONTEXT8?&gt;</string>
+    <string name="btn_text9">&lt;?ivBUTTONTEXT9?&gt;</string>
+    <string name="btn_text10">&lt;?ivBUTTONTEXT10?&gt;</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_cashback">Cashback</string>
+    <string name="btn_prompt_clear">Borrar</string>
+    <string name="btn_credit">Crédito</string>
+    <string name="btn_debit">Débito</string>
+    <string name="btn_decline">Negada</string>
+    <string name="btn_ebt_cash">Efectivo</string>
+    <string name="btn_ebt_food">Comida</string>
+    <string name="btn_enter_card">Ingresar tarjeta</string>
+    <string name="btn_other">Otro</string>
+    <string name="btn_partial_payment">Pago parcial</string>
+    <string name="btn_store">Tienda</string>
+    <string name="btn_begin">Comenzar</string>
+    <string name="btn_ios">iOS</string>
+    <string name="btn_standard">Estándar</string>
+    <string name="btn_enter_mac">Ingresar MAC</string>
+    <string name="btn_manual">Manual</string>
+    <string name="btn_generate">Generar</string>
+    <string name="btn_english">English</string>
+    <string name="btn_spanish">Español</string>
+    <string name="btn_french">Français</string>
+    <string name="btn_agree">Aceptar</string>
+    <string name="btn_disagree">Declinar</string>
+    <string name="btn_0_dollars">$0</string>
+    <string name="btn_5_dollars">$5</string>
+    <string name="btn_10_dollars">$10</string>
+    <string name="btn_15_dollars">$15</string>
+    <string name="btn_20_dollars">$20</string>
+    <string name="btn_25_dollars">$25</string>
+    <string name="btn_30_dollars">$30</string>
+    <string name="btn_35_dollars">$35</string>
+    <string name="btn_40_dollars">$40</string>
+    <string name="btn_45_dollars">$45</string>
+    <string name="btn_50_dollars">$50</string>
+    <string name="btn_55_dollars">$55</string>
+    <string name="btn_60_dollars">$60</string>
+    <string name="btn_65_dollars">$65</string>
+    <string name="btn_70_dollars">$70</string>
+    <string name="btn_75_dollars">$75</string>
+    <string name="btn_80_dollars">$80</string>
+    <string name="btn_85_dollars">$85</string>
+    <string name="btn_90_dollars">$90</string>
+    <string name="btn_95_dollars">$95</string>
+    <string name="btn_100_dollars">$100</string>
+    <string name="btn_500_dollars">$500</string>
+    <string name="btn_1000_dollars">$1000</string>
+    <string name="btn_max">Max</string>
+    <string name="btn_change_amount">Cambiar monto</string>
+    <string name="btn_no_cash">No efectivo</string>
+    <string name="btn_load">Cargar</string>
+    <string name="btn_payment">Pago</string>
+    <string name="btn_ebt">EBT</string>
+    <string name="btn_more">Más</string>
+    <string name="btn_back">Atrás</string>
+    <string name="btn_language">Idioma</string>
+    <string name="cashback_0">$0</string>
+    <string name="cashback_20">$20</string>
+    <string name="cashback_40">$40</string>
+    <string name="cashback_60">$60</string>
+    <string name="cashback_80">$80</string>
+    <string name="hint_raw">Escriba aquí</string>
+    <string name="img_ingenico_logo_content_description">Ingenico logo image</string>
+    <string name="img_read_cards">Card image</string>
+    <string name="please_insert_card">Por favor, inserte la tarjeta</string>
+    <string name="please_sign">Por favor introduzca su firma</string>
+    <string name="please_tap_insert_or_slide_card">Toque, inserte o deslice la tarjeta</string>
+    <string name="title_error">Error</string>
+    <string name="title_info">Info</string>
+    <string name="title_input">Entrada de usuario</string>
+    <string name="title_menu">Seleccionar de la lista</string>
+    <string name="title_warning">Advertencia</string>
+
+    <!-- PIN prompts -->
+    <string name="enter_pin">Ingrese PIN</string>
+    <string name="enter_pin_alternate">Ingrese PIN</string>
+    <string name="enter_pin_and_press_enter">Ingrese PIN y oprima ENTER</string>
+    <string name="enter_pin_enter">Ingrese PIN &amp; ENTER</string>
+    <string name="enter_pin_or_press_green">Ingrese el PIN o Presione Verde para Crédito</string>
+    <string name="enter_pin_press_enter">Ingrese PIN &amp; oprima ENTER</string>
+    <string name="enter_valid_pin">Ingrese un PIN válido</string>
+    <string name="for_verification_reenter_pin">Para verificación, vuelva a ingresar su clave (PIN)</string>
+    <string name="invalid_pin_please_reenter_pin">PIN inválido. Vuelva ingresar el PIN</string>
+    <string name="key_pin_press_enter">PIN KEY\nPresione ENTER</string>
+    <string name="last_pin_try">Último intento de PIN</string>
+    <string name="last_pin_try_attempt">Verifique su clave (PIN), último intento de modificación</string>
+    <string name="last_pin_try_reenter_pin">Último intento de PIN\nIngrese el PIN y presione ENTER</string>
+    <string name="last_pin_try_please_enter_your_pin">Último intento de PIN\nPor favor ingrese su PIN</string>
+    <string name="pin_equals">PIN=</string>
+    <string name="pin_failed">Fallo de PIN</string>
+    <string name="pin_timeout">PIN Timeout</string>
+    <string name="please_enter_4_to_12_digit_pin">Por favor ingrese clave (PIN) de 4-12 dígitos</string>
+    <string name="please_enter_pin">Por favor ingrese PIN</string>
+    <string name="please_enter_pin_required_for_cashback">Por Favor ingrese su PIN:\nEl PIN es requerido para el reembolso</string>
+    <string name="please_enter_your_new_4_digit_pin">Por favor ingrese su nueva clave (PIN) de 4 dígitos</string>
+    <string name="please_enter_your_old_pin">Por favor ingrese su clave (PIN) anterior</string>
+    <string name="please_enter_your_pin">Por favor ingrese su PIN:</string>
+    <string name="please_enter_your_pin_and_press_enter">Por favor ingrese su PIN y oprima ENTER</string>
+    <string name="please_reenter_your_4_digit_pin">Por favor vuelva a ingresar su clave (PIN) de 4 dígitos</string>
+    <string name="reenter_pin">Reingrese PIN</string>
+    <string name="reenter_pin_and_press_enter">Reingrese PIN y oprima ENTER</string>
+    <string name="reenter_pin_and_enter">Reingrese PIN y ENTER</string>
+    <string name="reenter_pin_press_enter">Reingrese PIN &amp; oprima ENTER</string>
+
+    <!-- Clear text prompts -->
+    <string name="annual_income">Ingreso Anual (de todas fuentes)</string>
+    <string name="annual_income_amount">Cantidad de Ingreso Anual</string>
+    <string name="date_of_birth">Fecha de Nacimiento</string>
+    <string name="email_address">Dirección de Correo Electrónico</string>
+    <string name="enter_10_digit_home_phone_number">Por favor marque el numero de teléfono de 10-dígitos de SU HOGAR</string>
+    <string name="enter_bt_mac">Ingresar BT MAC</string>
+    <string name="enter_bt_pin">Ingresar BT Código</string>
+    <string name="enter_card_number">Marque Numero de Tarjeta</string>
+    <string name="enter_cashback_in_increments">Marque Cashback en incrementos de &lt;?ivARC_CB_INC?&gt;</string>
+    <string name="enter_cvn">Marque el CVN</string>
+    <string name="enter_cvv_or_cname_from_card">Marque CVV o CID de su tarjeta</string>
+    <string name="enter_dns1_address">Ingresar Dirección DNS1</string>
+    <string name="enter_dns2_address">Ingresar Dirección DNS2</string>
+    <string name="enter_expiration_date">Marque Fecha de Expiración</string>
+    <string name="enter_gateway_address">Ingresar Dirección Gateway</string>
+    <string name="enter_home_phone_number">Marque su numero de teléfono</string>
+    <string name="enter_host_address">Ingresar Dirección del Host</string>
+    <string name="enter_host_port">Ingresar Puerto del Host</string>
+    <string name="enter_ip_address">Ingresar Dirección IP</string>
+    <string name="enter_last_4_digits_of_social_security">Marque Últimos 4 Dígitos de Seguro Social</string>
+    <string name="enter_last_four_digits_of_your_pan">Marque los últimos cuatro digitos de su PAN</string>
+    <string name="enter_mobile_number_or_swipe_card">Ingresar #móvil o deslizar la tarjeta"</string>
+    <string name="enter_month_and_day_of_birth">Marque Mes y Día de Nacimiento (MMDD)</string>
+    <string name="enter_password">Ingresar Contraseña</string>
+    <string name="enter_port">Ingresar Puerto</string>
+    <string name="enter_social_security">Marque # de Seguro Social</string>
+    <string name="enter_street_address">Ingresar Dirección de la Calle</string>
+    <string name="enter_subnet_mask">Ingresar Máscara de Subred</string>
+    <string name="enter_two_digit_number_of_months">Marque número de meses de dos dígitos</string>
+    <string name="enter_two_digit_number_of_years">Marque numero de años de dos dígitos</string>
+    <string name="enter_vehicle_number">Marque el PDSeq# (Número de Vehículo, 5 dígitos)</string>
+    <string name="enter_your_annual_household_income">Por favor marque su cantidad de ingreso anual</string>
+    <string name="enter_your_mothers_maiden_name">Use el lápiz para teclar su apellido materno</string>
+    <string name="enter_zip_code">Introducir código postal</string>
+    <string name="home_phone_number">Marque teléfono de su Hogar</string>
+    <string name="is_this_a_cash_benefit_card">Es esta una Tarjeta de Beneficios en Efectivo</string>
+    <string name="months_lived_at_current_address">Meses Vividos en la Dirección Actual</string>
+    <string name="mothers_maiden_name">Apellido Materno</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="please_enter_approval_code">Por favor marque el Código de Aprovación</string>
+    <string name="please_enter_billing_zip_code">Por favor marque el código postal de facturación</string>
+    <string name="please_enter_cashback">Por favor marque Cashback:</string>
+    <string name="please_enter_cname">Por favor marque el CID</string>
+    <string name="please_enter_cname_code">Por favor marque el Código CID</string>
+    <string name="please_enter_customer_code">Por favor marque el Código de Cliente</string>
+    <string name="please_enter_customer_identification_code">Por favor marque el Código de Identificación de Cliente</string>
+    <string name="please_enter_cvv2">Por favor marque el CVV2</string>
+    <string name="please_enter_cvv2_code">Por favor marque el Código CVV2</string>
+    <string name="please_enter_driver_name">Por favor marque el Número de Licencia de Conductor</string>
+    <string name="please_enter_ebt_voucher_number">Por favor marque el Número de Comprobante EBT</string>
+    <string name="please_enter_invoice_number">Por favor marque el Número de Facturación</string>
+    <string name="please_enter_name_number">Por favor marque el Número de Identificación</string>
+    <string name="please_enter_new_amount">Por favor marque la cantidad nueva:</string>
+    <string name="please_enter_odometer">Por favor marque el Odómetro</string>
+    <string name="please_enter_reference_number">Por favor marque el Número de Referencia</string>
+    <string name="please_enter_security_code">Por favor marque el Código de Seguridad</string>
+    <string name="please_enter_string_code">Por favor marque el Código de Solicitud</string>
+    <string name="please_enter_the_check_amount">Por favor marque el monto del cheque</string>
+    <string name="please_enter_the_check_number">Por favor marque el número del cheque</string>
+    <string name="please_enter_vehicle_card_number">Ingrese el Número de Tarjeta del Vehículo</string>
+    <string name="please_enter_vehicle_name">Por favor marque la Identificación del Vehículo</string>
+    <string name="please_enter_vehicle_number">Por favor marque el Número de Vehículo</string>
+    <string name="please_enter_your_date_of_birth">Por favor marque su fecha de nacimiento</string>
+    <string name="please_enter_your_home_phone_number">Por favor marque su numero de teléfono</string>
+    <string name="please_enter_your_social_security_number">Por favor marque su numero de seguro social</string>
+    <string name="please_enter_zip_code">Por favor marque Código Postal</string>
+    <string name="social_security_number">Numero de Seguro Social</string>
+    <string name="years_lived_at_current_address">Años Vividos en la Dirección Actual</string>
+    <string name="zip_code">Código Postal</string>
+    <string name="enter_tip">Ingrese Cargo por Servicio</string>
+    <string name="enter_contract_number">Ingrese el número de contrato</string>
+
+    <!-- Format specifiers -->
+    <string name="format_cvv_number" formatted="false">"%dl%z%m3%M4%o    "</string>
+    <string name="format_dollars_and_cents_hundred_thousand" formatted="false">"%o   %h,%o   %s$%f.%o  "</string>
+    <string name="format_dollars_and_cents_thousand" formatted="false">"%o   %h,%o  %s$%o0%f.%o00"</string>
+    <string name="format_dollars_thousand" formatted="false">"%m0%M6%o   %h,%o  %s$%o0"</string>
+    <string name="format_hidden_five_digits" formatted="false">"%m5%M5%z%dl%P*%o_____"</string>
+    <string name="format_hidden_four_digits" formatted="false">"%m4%M4%dl%p*%o    "</string>
+    <string name="format_hidden_phone_number" formatted="false">"%m10%M10%P*%dl%f(%o___%f)%o___%f-%o____"</string>
+    <string name="format_hidden_social_security_number" formatted="false">"%z%m9%M9%dl%p*%o   %f-%o  %f-%o    "</string>
+    <string name="format_hidden_social_security_number_with_slash" formatted="false">"%z%m9%M9%dl%p*%o   %f/%o  %f/%o    "</string>
+    <string name="format_hundred_thousand_and_tenths" formatted="false">"%m2%M6%o %h,%o  0%f.%o00"</string>
+    <string name="format_hundred_thousand_million" formatted="false">"%o   %h,%o   %h,%o   "</string>
+    <string name="format_ip_address" formatted="false">"%z%dl%m12%M12%o   %f.%o   %f.%o   %f.%o   "</string>
+    <string name="format_mask_pan" formatted="false">"%dl%z%m13%M19%P*%o"</string>
+    <string name="format_mask_date_four_digits" formatted="false">"%z%m4%M4%dl%P*%oMM%f/%oYY"</string>
+    <string name="format_mask_four_digits" formatted="false">"%m3%M4%dl%P*%o"</string>
+    <string name="format_max_four_digits" formatted="false">"%m2%M4%o    "</string>
+    <string name="format_month_day_long_year" formatted="false">"%z%m8%M8%dl%o  %f/%o  %f/%o    "</string>
+    <string name="format_month_day_short_year" formatted="false">"%z%m6%M6%dl%o  %f/%o  %f/%o  "</string>
+    <string name="format_month_year" formatted="false">"%z%m4%M4%dl%oMM%f/%oYY"</string>
+    <string name="format_number_sequence" formatted="false">%dl%o</string>
+    <string name="format_number_sequence_can_start_with_zero" formatted="false">"%dl%z%o"</string>
+    <string name="format_percentage" formatted="false">"%m0%M3%o   %f%%"</string>
+    <string name="format_phone_number" formatted="false">"%m10%M10%dl%f(%o   %f) %o   %f-%o    "</string>
+    <string name="format_social_security_number" formatted="false">"%m9%M9%o   %f-%o  %f-%o    "</string>
+    <string name="format_social_security_number_with_slash" formatted="false">"%m9%M9%dl%o   %f/%o  %f/%o    "</string>
+    <string name="format_three_characters_five_segments" formatted="false">"%z%dl%o   %f:%o   %f:%o   %f:%o   %f:%o   %f:%o   "</string>
+    <string name="format_three_characters_three_segments" formatted="false">"%dl%o---%f:%o---%f:%o---"</string>
+    <string name="format_year_month_space_separation" formatted="false">"%z%m4%M4%o  %f %o  "</string>
+
+    <!--region TEM form -->
+    <string name="server_configuration">Configuración del servidor</string>
+    <string name="url_address">Dirección URL</string>
+    <string name="tem_call_call_title">Llamar</string>
+    <string name="tem_call_install_title">Instalar</string>
+    <string name="tem_call_title">TEM Call</string>
+    <!--endregion-->
+
+    <!-- Terms & conditions -->
+    <string name="terms_title">Términos y condiciones</string>
+    <string name="terms_medical_insurance">
+        Yo, el abajo firmante, certifica que la persona a la que la receta fue escrita es elegible para recibir beneficios.
+        He recibido la prescripción listada y autorizo la liberación de toda la información contenida, la prescripción a
+        la que corresponde y reclamar con posterioridad a todas las partes interesadas. Además, certifico que este
+        medicamento NO está cubierto por ningún otro plan de seguro que no sea el indicado anteriormente y me asigno
+        cualquier pago debido conforme a esta transacción a la farmacia se muestra. Yo certifico que soy el paciente o
+        el representante autorizado del paciente y tengo el derecho legal de obtener registros de los pacientes.
+        TENGA EN CUENTA: En el caso de que su compañía de seguros no pague esta reclamación, por cualquier razón, aceptando
+        tu conformidad a reembolsar a la farmacia.
+    </string>
+
+    <string name="terms_lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ipsum consequat nisl vel pretium lectus quam id leo. Rhoncus aenean vel elit scelerisque mauris
+        pellentesque pulvinar. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius.
+        Tincidunt arcu non sodales neque sodales ut etiam. Malesuada fames ac turpis egestas maecenas pharetra convallis.
+        At consectetur lorem donec massa. Sagittis vitae et leo duis ut diam quam nulla porttitor. Volutpat ac tincidunt
+        vitae semper quis lectus. Sit amet nisl suscipit adipiscing bibendum est. Faucibus pulvinar elementum integer enim
+        neque volutpat ac tincidunt. Odio eu feugiat pretium nibh. Magna fermentum iaculis eu non diam.
+        Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Gravida in fermentum et sollicitudin ac orci.
+        Nec ultrices dui sapien eget. Amet dictum sit amet justo donec enim. Convallis aenean et tortor at risus viverra
+        adipiscing.
+
+        In ante metus dictum at tempor commodo. Leo a diam sollicitudin tempor id eu nisl nunc mi. Eu lobortis elementum
+        nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi enim nunc faucibus a.
+        Nulla facilisi cras fermentum odio. Nisi quis eleifend quam adipiscing vitae proin. Faucibus in ornare quam
+        viverra orci sagittis eu. Elementum eu facilisis sed odio morbi. At volutpat diam ut venenatis tellus in metus
+        vulputate eu. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Metus vulputate eu scelerisque felis
+        imperdiet proin. Ut aliquam purus sit amet luctus venenatis. Ut consequat semper viverra nam libero justo laoreet.
+        Facilisi morbi tempus iaculis urna id. Blandit libero volutpat sed cras ornare arcu. At varius vel pharetra vel
+        turpis nunc eget. Risus nullam eget felis eget nunc lobortis mattis. Non consectetur a erat nam at.
+
+        Sed risus ultricies tristique nulla. Sapien et ligula ullamcorper malesuada proin libero nunc. Neque aliquam
+        vestibulum morbi blandit cursus risus. Ut enim blandit volutpat maecenas volutpat blandit. Aenean sed adipiscing
+        diam donec adipiscing tristique risus nec feugiat. Donec pretium vulputate sapien nec. Parturient montes nascetur
+        ridiculus mus mauris vitae ultricies leo. Eleifend quam adipiscing vitae proin. Tortor aliquam nulla facilisi cras
+        fermentum odio. Eget est lorem ipsum dolor sit amet. At auctor urna nunc id cursus metus aliquam eleifend mi.
+        Lobortis mattis aliquam faucibus purus in massa tempor nec. Amet dictum sit amet justo donec enim.
+        Fames ac turpis egestas maecenas pharetra convallis. At consectetur lorem donec massa sapien faucibus et molestie.
+    </string>
+
+    <!-- Input error format string -->
+    <string name="error_input_out_of_range" formatted="false">Número de caracteres fuera del rango %s</string>
+    <string name="info_title">AXIUM Retail Core</string>
+
+    <!-- Manual Entry -->
+    <string name="pan_field_label">Número de tarjeta</string>
+    <string name="pan_field_hint">XXXX-XXXX-XXXX-XXXX-XXX</string>
+    <string name="pan_invalid_message">Número de tarjeta no válido</string>
+
+    <string name="exp_date_field_label">Fecha de vencimiento</string>
+    <string name="exp_date_field_hint">MM/YY</string>
+    <string name="exp_date_invalid_message">Fecha de vencimiento no válida</string>
+
+    <string name="cvv_field_label">Código de seguridad</string>
+    <string name="cvv_field_hint">CSC</string>
+    <string name="cvv_invalid_message">Código de seguridad no válido</string>
+
+    <string name="cancel_button_label">CANCELAR</string>
+    <string name="confirm_button_label">CONFIRMAR</string>
+</resources>

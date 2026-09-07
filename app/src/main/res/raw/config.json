@@ -1,0 +1,16 @@
+{
+  "autoStartOnReboot": false,
+  "startArcService": false,
+  "trace": {
+    "categories": "40",
+    "level": "4",
+    "folder": "/sdcard/UxResources/log"
+  },
+  "accessibilityMode": {
+    "activationTimeMs": 3000,
+    "identifyTimeMs": 500,
+    "enableClickSound": true,
+    "enableSwipeAction": false,
+    "enableActivationByHeadphonePlugIn": true
+  }
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/Theme.UxResources">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:contentDescription="@null"
+        android:src="@drawable/blank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/prompt_bar"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:background="@drawable/bg_prompt_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+    <!-- Hidden title placeholder required by framework -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:alpha="0"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- Prompt text overlaid on teal bar (maps to PAY2.K3Z PROMPTLINE1) -->
+    <TextView
+        android:id="@+id/lbl_prompt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/please_select_payment_type"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/prompt_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/prompt_bar"
+        tools:ignore="TextContrastCheck" />
+
+    <com.ingenico.retail.ui.x.server.forms.view.LineDisplayView
+        android:id="@+id/line_display"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/prompt_bar"
+        app:layout_constraintBottom_toTopOf="@id/layout_for_buttons"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintEnd_toStartOf="@id/guidelineRight" />
+
+    <!-- Payment type button container — bottom-right, matching PAY2.K3Z btn layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_for_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/B"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/b_credit_u"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal|bottom"
+            android:includeFontPadding="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="46dp"
+            android:paddingRight="2dp"
+            android:paddingBottom="8dp"
+            android:text="@string/btn_credit"
+            android:textAllCaps="true"
+            android:textColor="#1F2833"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TextContrastCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/A"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/b_debit_u"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal|bottom"
+            android:includeFontPadding="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="46dp"
+            android:paddingRight="2dp"
+            android:paddingBottom="8dp"
+            android:text="@string/btn_debit"
+            android:textAllCaps="true"
+            android:textColor="#1F2833"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/B"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btn_green_key"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="false"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_red_key"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="false"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

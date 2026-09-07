@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_left_horizontal_bias">0</dimen>
+    <dimen name="background_left_vertical_bias">0.20</dimen>
+    <dimen name="background_right_horizontal_bias">1</dimen>
+    <dimen name="background_right_vertical_bias">0.09</dimen>
+    <dimen name="background_bottom_horizontal_bias">1</dimen>
+    <dimen name="background_bottom_vertical_bias">1</dimen>
+
+    <!--  Margin  -->
+    <dimen name="margin_guide_top">8dp</dimen>
+    <dimen name="margin_guide_left">8dp</dimen>
+    <dimen name="margin_guide_right">8dp</dimen>
+    <dimen name="margin_guide_bottom">8dp</dimen>
+    <dimen name="margin_top_cless_bar">24dp</dimen>
+
+    <!--  Text Size  -->
+    <dimen name="title_text_size">34sp</dimen>
+    <dimen name="title_text_max_size_accessibility">70sp</dimen>
+    <dimen name="title_text_size_accessibility">50sp</dimen>
+    <dimen name="title_text_elevation">2dp</dimen>
+
+    <!--  Line Display  -->
+    <dimen name="line_display_padding">8dp</dimen>
+    <dimen name="line_display_scrollbar_width">8dp</dimen>
+    <dimen name="line_display_text_size">18sp</dimen>
+    <dimen name="line_display_margin_bottom">8dp</dimen>
+
+    <!--  Button  -->
+    <dimen name="button_text_size">17sp</dimen>
+    <dimen name="button_text_size_accessibility">35sp</dimen>
+    <dimen name="button_auto_size_min_text_size">20sp</dimen>
+    <dimen name="button_auto_size_max_text_size">50sp</dimen>
+    <dimen name="button_radius_value">27dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+
+    <!--  info layout  -->
+    <dimen name="scroll_view_padding">10dp</dimen>
+    <dimen name="device_info_text_size">12sp</dimen>
+
+    <!--  Clear Text Entry  -->
+    <dimen name="error_text_size">15sp</dimen>
+    <dimen name="clear_text_entry_box_margin_top">16dp</dimen>
+    <dimen name="clear_text_entry_box_auto_size_max_text_size">15dp</dimen>
+    <dimen name="clear_text_entry_box_auto_size_min_text_size">12dp</dimen>
+    <dimen name="clear_text_entry_box_padding">8dp</dimen>
+
+    <!--  List Box  -->
+    <dimen name="list_box_divider_height">1dp</dimen>
+    <dimen name="list_box_margin_top">8dp</dimen>
+    <dimen name="list_box_margin_bottom">8dp</dimen>
+
+    <!-- Cashback Selection -->
+    <dimen name="toggle_button_text_size">11sp</dimen>
+    <dimen name="toggle_button_max_text_size">11sp</dimen>
+    <dimen name="toggle_button_min_text_size">6sp</dimen>
+
+    <!-- Offline Layout -->
+    <dimen name="offline_title_margin">8dp</dimen>
+    <dimen name="offline_seq_btn_layout_width">70pt</dimen>
+    <dimen name="offline_seq_btn_layout_height">70pt</dimen>
+
+    <!--  ADA PIN on Glass layout  -->
+    <dimen name="pin_ada_margin_horizontal">20dp</dimen>
+    <dimen name="pin_ada_margin_vertical">16dp</dimen>
+    <dimen name="pin_ada_entry_box_margin_top">16dp</dimen>
+    <dimen name="pin_ada_entry_box_padding">8dp</dimen>
+    <dimen name="pin_ada_entry_box_text_size">22sp</dimen>
+    <dimen name="pin_ada_button_height">58dp</dimen>
+    <dimen name="pin_ada_button_margin_horizontal">5dp</dimen>
+    <dimen name="pin_button_height">48dp</dimen>
+    <dimen name="pin_keypad_layout_margin">5dp</dimen>
+    <dimen name="pin_keypad_big_button_height">104dp</dimen>
+    <dimen name="pin_backspace_button_height">48dp</dimen>
+    <dimen name="pin_layout_button_radius">5dp</dimen>
+    <dimen name="pin_layout_button_stroke_width">0dp</dimen>
+    <dimen name="pin_keypad_button_text_size">45sp</dimen>
+
+    <!-- Signature -->
+    <dimen name="signature_padding">2dp</dimen>
+    <dimen name="signature_radius">5dp</dimen>
+    <dimen name="signature_margin">8dp</dimen>
+
+    <!-- Terms & Conditions -->
+    <dimen name="tc_scroll_view_padding">10dp</dimen>
+    <dimen name="tc_scroll_view_margin">8dp</dimen>
+    <dimen name="tc_text_size">14sp</dimen>
+
+    <!-- TemCall -->
+    <dimen name="tem_call_padding">16dp</dimen>
+    <dimen name="tem_call_margin">64dp</dimen>
+    <dimen name="tem_call_server_config_text_size">14sp</dimen>
+    <dimen name="tem_call_text_size">24sp</dimen>
+
+</resources>

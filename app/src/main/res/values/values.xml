@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="buttonYes"/>
+    <attr format="color" name="buttonNo"/>
+    <attr format="color" name="buttonCancel"/>
+    <attr format="color" name="buttonGeneric"/>
+    <attr format="color" name="titleConfirm"/>
+    <attr format="color" name="titleInput"/>
+    <attr format="color" name="backgroundWidget"/>
+    <attr format="color" name="borderWidget"/>
+</resources>

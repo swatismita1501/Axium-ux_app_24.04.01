@@ -1,0 +1,4 @@
+SET(version.year 24)
+SET(version.releaseNum 04)
+SET(version.patch 01)
+SET(version.build 0004)

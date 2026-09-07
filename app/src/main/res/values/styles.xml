@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PinLayoutButton">
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#4F4F4F</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/pin_button_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginHorizontal">@dimen/pin_keypad_layout_margin</item>
+        <item name="android:background">@drawable/keypad_button_digit</item>
+    </style>
+
+    <style name="PinLayoutButtonAccessibility">
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/pin_button_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginHorizontal">@dimen/pin_keypad_layout_margin</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="PinLayoutButtonAdaDigit">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#4F4F4F</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/keypad_button_digit</item>
+    </style>
+
+    <style name="PinLayoutButtonAdaControl">
+        <item name="android:layout_width">58dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="LandscapePinLayoutButtonDigit">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#4F4F4F</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/keypad_button_digit</item>
+    </style>
+
+    <style name="LandscapePinLayoutButtonDigitAccessibility">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="LandscapePinLayoutButtonControl">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="LandscapePinLayoutAdaButtonDigit">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#4F4F4F</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/keypad_button_digit</item>
+    </style>
+
+    <style name="LandscapePinLayoutAdaButtonControl">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="PortraitPinLayoutAdaButtonDigit">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#4F4F4F</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/keypad_button_digit</item>
+    </style>
+
+    <style name="PortraitPinLayoutAdaButtonControl">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="ArcBackgroundImageLeft">
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
+    <style name="ArcBackgroundImageRight">
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ArcBackgroundImageBottom">
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ArcTitle">
+        <item name="android:elevation">@dimen/title_text_elevation</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">30sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArcTitleAccessibility">
+        <item name="android:elevation">@dimen/title_text_elevation</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/title_text_max_size_accessibility</item>
+        <item name="android:autoSizeMinTextSize">@dimen/title_text_size_accessibility</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/title_text_size_accessibility</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArcLineDisplay">
+        <item name="android:layout_marginBottom">@dimen/line_display_margin_bottom</item>
+        <item name="android:background">@drawable/background_edit_text</item>
+        <item name="android:fontFamily">@font/robotomono_bold</item>
+        <item name="android:minLines">5</item>
+        <item name="android:maxLines">20</item>
+        <item name="android:padding">@dimen/line_display_padding</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:scrollbarSize">@dimen/line_display_scrollbar_width</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textSize">@dimen/line_display_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArcBtnCancel">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonCancel</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnCancelAccessibility">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/button_auto_size_max_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/button_auto_size_min_text_size</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ArcBtnNo">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonNo</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnNoAccessibility">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/button_auto_size_max_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ArcBtnClear">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonNo</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnYes">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonYes</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnYesAccessibility">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/button_auto_size_max_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ArcBtnOk">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonYes</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnOkAccessibility">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/button_auto_size_max_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ArcBtnGeneric">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">?attr/buttonGeneric</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeMaxTextSize">70sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.92</item>
+        <item name="layout_constraintWidth_percent">0.31</item>
+    </style>
+
+    <style name="ArcBtnGenericAccessibility">
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/button_auto_size_max_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/button_text_size_accessibility</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">2</item>
+    </style>
+</resources>

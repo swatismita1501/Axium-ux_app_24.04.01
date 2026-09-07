@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?background"
+    android:theme="@style/Theme.UxResources">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/margin_guide_top" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/margin_guide_left" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/margin_guide_right" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="@dimen/margin_guide_bottom" />
+
+    <ImageView
+        android:id="@+id/backgroundLeft"
+        style="@style/ArcBackgroundImageLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/background_left_horizontal_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/background_left_vertical_bias"
+        app:srcCompat="@drawable/background_left"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/backgroundRight"
+        style="@style/ArcBackgroundImageRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/background_right_horizontal_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/background_right_vertical_bias"
+        app:srcCompat="@drawable/background_right"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/backgroundBottom"
+        style="@style/ArcBackgroundImageBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/background_bottom_horizontal_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/background_bottom_vertical_bias"
+        app:srcCompat="@drawable/background_bottom"
+        tools:ignore="ContentDescription" />
+
+
+    <!-- Title Section: AXIUM Retail Core -->
+    <TextView
+        android:id="@+id/app_title"
+        style="@style/ArcTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tem_call_padding"
+        android:text="@string/info_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Main Content Layout -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="@dimen/tem_call_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_title">
+        <!-- TODO(ARC-5914 Use existing style in tem_call.xml form.) -->
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/title"
+            style="@style/ArcTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tem_call_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tem_call_text_size"
+            />
+
+        <!-- Server Configuration TextView -->
+        <TextView
+            android:id="@+id/server_configuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_guide_top"
+            android:text="@string/server_configuration"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tem_call_server_config_text_size" />
+
+        <!-- Server Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_guide_top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/url_Label_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/url_address"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tem_call_server_config_text_size" />
+
+            <TextView
+                android:id="@+id/server_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text=""
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/tem_call_server_config_text_size" />
+
+            <TextView
+                android:id="@+id/ip_address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text=""
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/tem_call_server_config_text_size" />
+        </LinearLayout>
+
+        <!-- Call Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_cless_bar"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:id="@+id/call_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tem_call_call_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tem_call_server_config_text_size" />
+
+            <ProgressBar
+                android:id="@+id/call_icon_progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/call_icon_success"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/call_icon_error"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/error"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <!-- Installation Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_guide_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:id="@+id/installation_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tem_call_install_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tem_call_server_config_text_size" />
+
+            <ProgressBar
+                android:id="@+id/install_icon_progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/install_success_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/install_error_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/error"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <!-- Result Message -->
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
